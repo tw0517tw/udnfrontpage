@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-tw" ng-app>
+<head>
+  <meta charset="UTF-8">
+  <title>聯合報</title>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular.min.js"></script>
+</head>
+<body>
+  <label>date:</label>
+  <input type="text" ng-model="aaa" ng-init="aaa=20000101" placeholder="Enter a date here">
+  <br>
+  資料屬於<a href="https://event.franklin.com.tw/C2014_11_TGF/">富蘭克林證券投顧</a>以及<a href="http://udn.com">聯合報</a>
+  <hr>
+  <img ng-src="http://event.franklin.com.tw/C2014_11_TGF/showimg.aspx?date={{aaa}}" alt="">
+  
+  <script>
+    
+  </script>
+</body>
+</html>
